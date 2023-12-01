@@ -1,0 +1,9 @@
+#movies {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+#movies div {
+    margin-top: 50px;
+}

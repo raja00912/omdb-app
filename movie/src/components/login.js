@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { useNavigate } from 'react-router-dom';
-
+import './login.css'
 
 function Login() {
 
@@ -25,7 +25,7 @@ function Login() {
     }
 
     return (
-        <div>
+        <div id='userDiv'>
             <input ref={email} type='text' placeholder='Enter email' /><br />
             <input ref={password} type='password' placeholder='Enter password' /><br />
             <button onClick={CheckAuth}>Log in</button><br />

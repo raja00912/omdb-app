@@ -1,0 +1,11 @@
+#userDiv {
+    margin-top: 50px;
+
+}
+
+#userDiv input,
+#userDiv button {
+    padding: 5px 10px;
+    font-size: 17px;
+    margin-top: 15px;
+}
